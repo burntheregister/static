@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- saved from url=(0028)https://burntheregister.com/ -->
-<html lang="en" style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
         <title>BURN THE REGISTER</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Fixing the Parliamentary Interests Register for good">
@@ -12,15 +12,15 @@
         
 
         <link href="https://google.com/+LibcrowdsBL" rel="publisher">
-        <link rel="shortcut icon" href="https://burntheregister.com/static/img/favicon.png">
+        <link rel="shortcut icon" href="/static/img/favicon.png">
 
         <!-- Le styles -->
-        <link type="text/css" rel="stylesheet" href="./index_files/browser-detection.min.css">
-        <link type="text/css" rel="stylesheet" href="./index_files/font-awesome.min.css">
-        <link type="text/css" rel="stylesheet" href="./index_files/select2.min.css">
-        <link type="text/css" rel="stylesheet" href="./index_files/select2-bootstrap.min.css">
-        <link type="text/css" rel="stylesheet" href="./index_files/bootstrap.min.css">
-        <link type="text/css" rel="stylesheet" href="./index_files/styles.css">
+        <link type="text/css" rel="stylesheet" href="/static/vendor/browser-detection/browser-detection.min.css">
+        <link type="text/css" rel="stylesheet" href="/static/fonts/font-awesome-4.4.0/css/font-awesome.min.css">
+        <link type="text/css" rel="stylesheet" href="/static/vendor/select2/css/select2.min.css">
+        <link type="text/css" rel="stylesheet" href="/static/vendor/select2/css/select2-bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="/static/vendor/bootstrap-3.3.2/css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="/static/css/styles.css?v=1.7.1">
 
         <!--[if lt IE 9]>
         <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -37,18 +37,18 @@
         <![endif]-->
 
         <!-- Le javascript -->
-        <script type="text/javascript" async="" src="./index_files/analytics.js"></script><script type="text/javascript" src="./index_files/jquery-2.1.3.min.js"></script>
-        <script type="text/javascript" src="./index_files/jquery.cookie.min.js"></script>
-        <script type="text/javascript" src="./index_files/jquery.xdomainrequest.min.js"></script>
-        <script type="text/javascript" src="./index_files/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="./index_files/jquery.history.js"></script>
-        <script type="text/javascript" src="./index_files/modernizr.min.js"></script>
-        <script type="text/javascript" src="./index_files/browser-detection.min.js"></script>
-        <script type="text/javascript" src="./index_files/bootstrap.min.js"></script>
-        <script type="text/javascript" src="./index_files/select2.min.js"></script>
-        <script type="text/javascript" src="./index_files/flash-messages.js"></script>
+        <script type="text/javascript" src="/static/js/vendor/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="/static/js/vendor/jquery.cookie.min.js"></script>
+        <script type="text/javascript" src="/static/js/vendor/jquery.xdomainrequest.min.js"></script>
+        <script type="text/javascript" src="/static/js/vendor/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/vendor/history/scripts/bundled/html4+html5/jquery.history.js"></script>
+        <script type="text/javascript" src="/static/js/vendor/modernizr.min.js"></script>
+        <script type="text/javascript" src="/static/vendor/browser-detection/browser-detection.min.js"></script>
+        <script type="text/javascript" src="/static/vendor/bootstrap-3.3.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/static/vendor/select2/js/select2.min.js"></script>
+        <script type="text/javascript" src="/static/js/flash-messages.js"></script>
 
-        <script async="" src="./index_files/js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112849121-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -78,7 +78,7 @@
                   
             
 
-            <div class="navbar navbar-fixed-top navbar-default">
+            <div class="navbar navbar-fixed-top navbar-default notransition ">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -88,8 +88,11 @@
             <!-- Set logo -->
             <var id="logo-black" data-src="/static/img/logo-dark.png"></var>
             <var id="logo-white" data-src="/static/img/logo-white.png"></var>
-            <a class="navbar-brand" href="https://burntheregister.com/">
-                <img id="navbar-logo" src="./index_files/logo-white.png" alt="BURN THE REGISTER logo">
+            <a class="navbar-brand" href="/">
+                <img id="navbar-logo"
+                
+                    src="/static/img/logo-white.png"
+                 alt="BURN THE REGISTER logo" />
             </a>
 
         </div>
@@ -97,10 +100,10 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li class="nav-link">
-                    <a href="https://burntheregister.com/about">About</a>
+                    <a href="/about">About</a>
                 </li>
                 <li class="nav-link">
-                    <a href="https://burntheregister.com/project/category/featured/">Contribute</a>
+                    <a href="/project/category/featured/">Contribute</a>
                 </li>
 
                 <!-- See https://github.com/LibCrowds/libcrowds-statistics
@@ -114,22 +117,22 @@
                 <li class="nav-link">
                     
                         
-                        <a href="https://burntheregister.com/discourse/index">Talk
+                        <a href="/discourse/index">Talk
                             <span id="notifications" class="badge badge-info">2</span>
                         </a>
                     
                 </li>
 
                 <li class="nav-link">
-                    <a href="https://burntheregister.com/stats/">Progress</a>
+                    <a href="/stats/">Progress</a>
                 </li>
 
                 <li class="nav-link">
-                    <a href="https://burntheregister.com/leaderboard/">BURNers</a>
+                    <a href="/leaderboard/">BURNers</a>
                 </li>
 
                 <li class="nav-link">
-                    <a href="https://burntheregister.com/search">Search</a>
+                    <a href="/search">Search</a>
                 </li>
                 
                 <!-- See https://github.com/LibCrowds/libcrowds-data
@@ -146,30 +149,30 @@
             <ul class="nav navbar-nav navbar-right">
                 
                 <li class="nav-link">
-                    <a href="https://burntheregister.com/#" data-toggle="dropdown" class="dropdown-toggle">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">
                         <i class="icon fa fa-user"></i> jacksongs <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
                         <li class="nav-link">
-                            <a href="https://burntheregister.com/account/jacksongs/"><i class="fa fa-user"></i> Profile</a>
+                            <a href="/account/jacksongs/"><i class="fa fa-user"></i> Profile</a>
                         </li>
                         <li class="nav-link">
-                            <a href="https://burntheregister.com/account/jacksongs/update"><i class="fa fa-cog"></i> Settings</a>
+                            <a href="/account/jacksongs/update"><i class="fa fa-cog"></i> Settings</a>
                         </li>
 
                         
-                        <li class="divider">
+                        <li class="divider" />
 
-                        </li><li class="nav-link">
-                            <a href="https://burntheregister.com/project/new"><i class="fa fa-plus"></i> New Project</a>
+                        <li class="nav-link">
+                            <a href="/project/new"><i class="fa fa-plus"></i> New Project</a>
                         </li>
                         <li class="nav-link">
-                            <a href="https://burntheregister.com/account/jacksongs/projects"><i class="fa fa-folder-open"></i> Open Project</a>
+                            <a href="/account/jacksongs/projects"><i class="fa fa-folder-open"></i> Open Project</a>
                         </li>
 
                             
                             <li class="nav-link">
-                                <a href="https://burntheregister.com/admin/"><i class="fa fa-cog"></i> Admin</a>
+                                <a href="/admin/"><i class="fa fa-cog"></i> Admin</a>
                             </li>
                             
                         
@@ -178,7 +181,7 @@
                         <!-- See https://github.com/alexandermendes/pybossa-discourse -->
                         <li class="nav-link">
                             
-                            <a href="https://burntheregister.com/discourse/signout"><i class="fa fa-power-off"></i> Sign Out</a>
+                            <a href="/discourse/signout"><i class="fa fa-power-off"></i> Sign Out</a>
                             
                         </li>
 
@@ -222,7 +225,7 @@
                 Australia's Parliamentary Interests Register - the place our politicians declare conflicts of interest - needs to be fixed.
                 The BURN THE REGISTER community of journalists and citizens will crowd-source the digitisation of the old hand-written paper and PDF entries to make them searchable.
             </p>
-            <a href="https://burntheregister.com/about" class="btn btn-default">This is mad tell me more</a>
+            <a href="/about" class="btn btn-default">This is mad tell me more</a>
         </div>
     </div>
 </section>
@@ -231,13 +234,13 @@
     <div class="container padding-top-sm">
         <div class="col-sm-offset-2 col-sm-8 text-center">
 
-                <img style="width:100%" src="./index_files/sns.png"><br><br>
+                <img style='width:100%' src="/static/img/sns.png"><br><br>
             <h2 class="inset-text-grey text-center">How are we tracking?</h2>    
                 <p>Each page of the register will be transcribed twice to make the disclosures searchable.</p>
             
         </div>
         <div class="col-sm-offset-2 col-sm-8 text-center">
-                <p>Check out the <a href="https://burntheregister.com/stats">Progress</a> page to see how we are tracking.</p>
+                <p>Check out the <a href="/stats">Progress</a> page to see how we are tracking.</p>
         </div>
     </div>
 </section>
@@ -248,13 +251,13 @@
         <div class="col-sm-offset-2 col-sm-8 text-center">
             <div class="row">
                 <h2>Join in</h2>
-                <p>Follow updates on <a href="https://www.twitter.com/BURNTHEREGISTER/">Twitter</a>, check out the <a href="https://talk.burntheregister.com/">community forum</a>, and watch this introductory video.</p>
-                <iframe width="100%" height="415" src="./index_files/gRH9LYrl-JM.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-                <p>Then, once you've done all that, go ahead and <strong><a href="https://burntheregister.com/account/register">register</a></strong>!</p>.
+                <p>Follow updates on <a href="https://www.twitter.com/BURNTHEREGISTER/">Twitter</a>, check out the <a href="https://talk.burntheregister.com">community forum</a>, and watch this introductory video.</p>
+                <iframe width="100%" height="415" src="https://www.youtube.com/embed/gRH9LYrl-JM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <p>Then, once you've done all that, go ahead and <strong><a href="/account/register">register</a></strong>!</p>.
             </div>
         </div>
     </div>
-</section></div>
+</div>
 
 
 <section id="top_users">
@@ -262,20 +265,29 @@
         
         
 <div class="col-xs-12 text-center">
-    <a data-content="Share on Facebook" class="btn btn-facebook btn-popover" onclick="popUp=window.open(&#39;http://www.facebook.com/sharer.php?u=http%3A%2F%2FBURNTHEREGISTER.com&#39;,
-                               &#39;popupwindow&#39;, &#39;scrollbars=yes,width=510,height=620&#39;);popUp.focus();return false" data-url="BURNTHEREGISTER.com" data-original-title="" title="">
+    <a data-content="Share on Facebook" class="btn btn-facebook btn-popover"
+       onclick="popUp=window.open('http://www.facebook.com/sharer.php?u=http%3A%2F%2FBURNTHEREGISTER.com',
+                               'popupwindow', 'scrollbars=yes,width=510,height=620');popUp.focus();return false"
+                               data-url="BURNTHEREGISTER.com">
         <i class="fa fa-facebook"></i>
     </a>
 
-    <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2FBURNTHEREGISTER.com&amp;text=Dang,%20it%27s%20time%20to%20fix%20the%20Interests%20Register%20for%20good%20%20%20%20&amp;tw_p=tweetbutton&amp;url=http%3A%2F%2FBURNTHEREGISTER.com" data-content="Share on Twitter" class="btn btn-twitter btn-popover" data-url="BURNTHEREGISTER.com" data-original-title="" title="">
+    <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2FBURNTHEREGISTER.com&text=Dang, it&#39;s time to fix the Interests Register for good
+    &tw_p=tweetbutton&url=http%3A%2F%2FBURNTHEREGISTER.com"
+       data-content="Share on Twitter" class="btn btn-twitter btn-popover"
+       data-url="BURNTHEREGISTER.com">
         <i class="fa fa-twitter"></i>
     </a>
-    <a href="https://burntheregister.com/#" data-content="Share on Google+" class="btn btn-googleplus btn-popover" onclick="popUp=window.open(&#39;https://plus.google.com/share?url=http%3A%2F%2FBURNTHEREGISTER.com&#39;,
-                               &#39;popupwindow&#39;, &#39;scrollbars=yes,width=510,height=725&#39;);popUp.focus();return false" data-url="BURNTHEREGISTER.com" data-original-title="" title="">
+    <a href="#" data-content="Share on Google+" class="btn btn-googleplus btn-popover"
+    onclick="popUp=window.open('https://plus.google.com/share?url=http%3A%2F%2FBURNTHEREGISTER.com',
+                               'popupwindow', 'scrollbars=yes,width=510,height=725');popUp.focus();return false"
+                               data-url="BURNTHEREGISTER.com">
         <i class="fa fa-google"></i>
     </a>
-    <a href="https://burntheregister.com/#" data-content="Share on LinkedIn" class="btn btn-linkedin btn-popover" onclick="popUp=window.open(&#39;https://www.linkedin.com/cws/share?url=http%3A%2F%2FBURNTHEREGISTER.com&#39;,
-                               &#39;popupwindow&#39;, &#39;scrollbars=yes,width=510,height=520&#39;);popUp.focus();return false" data-url="BURNTHEREGISTER.com" data-original-title="" title="">
+    <a href="#" data-content="Share on LinkedIn" class="btn btn-linkedin btn-popover"
+    onclick="popUp=window.open('https://www.linkedin.com/cws/share?url=http%3A%2F%2FBURNTHEREGISTER.com',
+                               'popupwindow', 'scrollbars=yes,width=510,height=520');popUp.focus();return false"
+                               data-url="BURNTHEREGISTER.com">
         <i class="fa fa-linkedin"></i>
     </a>
 </div>
@@ -304,8 +316,8 @@ function imgError(image) {
                 </div>
             </div>
             
-        
-    
+        </div>
+    </div>
     <footer id="main-footer">
         <div class="container">
     <div class="row center vcenter hcenter">
@@ -332,8 +344,8 @@ function imgError(image) {
         </div>
 
         <div class="col-sm-3 footer-col hidden-xs">
-            <a href="http://pybossa.com/" target="_blank">
-                <img class="img-responsive center-block ie-mid-vcenter" src="./index_files/pybossa.png" alt="PyBossa logo">
+            <a href="http://pybossa.com/"  target="_blank">
+                <img class="img-responsive center-block ie-mid-vcenter" src="/static/img/pybossa.png"  alt="PyBossa logo">
             </a>
         </div>
 
@@ -343,9 +355,9 @@ function imgError(image) {
 
     <!-- Le javascript -->
     
-    <script type="text/javascript" src="./index_files/specialedit.js"></script>
-    <script type="text/javascript" src="./index_files/scripts.js"></script>
-    <script type="text/javascript" src="./index_files/errors.js"></script>
+    <script type="text/javascript" src="/static/vendor/specialedit/specialedit.js"></script>
+    <script type="text/javascript" src="/static/js/scripts.js"></script>
+    <script type="text/javascript" src="/static/js/errors.js"></script>
     <script>
         function accept_cookies(){
     var cookie_name = "BURN THE REGISTER_accept_cookies";
@@ -358,5 +370,5 @@ function imgError(image) {
 };
     </script>
 
-    
-</body></html>
+    </body>
+</html>
