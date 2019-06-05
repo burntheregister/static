@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>BURN THE REGISTER</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Fixing the Parliamentary Interests Register for good">
+        <meta name="author" content="British Library">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+        <!-- Block robots from private pages -->
+        
+
+        <link href="https://google.com/+LibcrowdsBL" rel="publisher">
+        <link rel="shortcut icon" href="/web/static/img/favicon.png">
+
+        <!-- Le styles -->
+        <link type="text/css" rel="stylesheet" href="/web/static/vendor/browser-detection/browser-detection.min.css">
+        <link type="text/css" rel="stylesheet" href="/web/static/fonts/font-awesome-4.4.0/css/font-awesome.min.css">
+        <link type="text/css" rel="stylesheet" href="/web/static/vendor/select2/css/select2.min.css">
+        <link type="text/css" rel="stylesheet" href="/web/static/vendor/select2/css/select2-bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="/web/static/vendor/bootstrap-3.3.2/css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="/web/static/css/styles.css?v=1.7.1">
+
+        <!--[if lt IE 9]>
+        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <style>
+            .ie-vcenter{position:relative;top:50%;transform:translateY(-50%);}
+            .ie-mid-vcenter{position:relative;top:25%;transform:translateY(-25%);}
+        </style>
+        <![endif]-->
+        <!--[if IE 9]>
+        <style>
+            .ie-vcenter{position:relative;top:50%;transform:translateY(-50%);}
+            .ie-mid-vcenter{position:relative;top:25%;transform:translateY(-25%);}
+        </style>
+        <![endif]-->
+
+        <!-- Le javascript -->
+        <script type="text/javascript" src="/web/static/js/vendor/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="/web/static/js/vendor/jquery.cookie.min.js"></script>
+        <script type="text/javascript" src="/web/static/js/vendor/jquery.xdomainrequest.min.js"></script>
+        <script type="text/javascript" src="/web/static/js/vendor/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/web/static/js/vendor/history/scripts/bundled/html4+html5/jquery.history.js"></script>
+        <script type="text/javascript" src="/web/static/js/vendor/modernizr.min.js"></script>
+        <script type="text/javascript" src="/web/static/vendor/browser-detection/browser-detection.min.js"></script>
+        <script type="text/javascript" src="/web/static/vendor/bootstrap-3.3.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/web/static/vendor/select2/js/select2.min.js"></script>
+        <script type="text/javascript" src="/web/static/js/flash-messages.js"></script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112849121-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112849121-1');
+</script>
+        
+    </head>
+
+    <body>
+
+        <!-- JS required warning-->
+        <noscript>
+            <div id="error" class="alert alert-danger">
+                <strong>Please enable JavaScript!</strong> This website will not work correctly with JavaScript disabled.
+            </div>
+        </noscript>
+
+        <div id="body-content">
+            
+            <!-- checkpoint::logged-in::jacksongs -->
+            
+
+            <!-- Check if staff or admin -->
+            
+                  
+            
+
+            <div class="navbar navbar-fixed-top navbar-default notransition opaque">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="fa fa-bars"></span>
+            </button>
+
+            <!-- Set logo -->
+            <var id="logo-black" data-src="/web/static/img/logo-dark.png"></var>
+            <var id="logo-white" data-src="/web/static/img/logo-white.png"></var>
+            <a class="navbar-brand" href="/">
+                <img id="navbar-logo"
+                
+                    src="/web/static/img/logo-dark.png"
+                 alt="BURN THE REGISTER logo" />
+            </a>
+
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="nav-link">
+                    <a href="/about">About</a>
+                </li>
+                <li class="nav-link">
+                    <a href="/project/category/featured/">Contribute</a>
+                </li>
+
+                <!-- See https://github.com/LibCrowds/libcrowds-statistics
+                <li class="nav-link">
+                    
+                    <a href="/stats/">Statistics</a>
+                    
+                </li> -->
+
+                <!-- See https://github.com/alexandermendes/pybossa-discourse -->
+                <li class="nav-link">
+                    
+                        
+                        <a href="/discourse/index">Talk
+                            <span id="notifications" class="badge badge-info">2</span>
+                        </a>
+                    
+                </li>
+
+                <li class="nav-link">
+                    <a href="/stats/">Progress</a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="/leaderboard/">BURNers</a>
+                </li>
+
+                <li class="nav-link active">
+                    <a href="/search">Search</a>
+                </li>
+                
+                <!-- See https://github.com/LibCrowds/libcrowds-data
+                
+                    <li class="nav-link ">
+                        <a href="/data/">Download</a>
+                    </li>
+                 -->
+            </ul>
+
+            <!-- Optional search form -->
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li class="nav-link">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                        <i class="icon fa fa-user"></i> jacksongs <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="nav-link">
+                            <a href="/account/jacksongs/"><i class="fa fa-user"></i> Profile</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="/account/jacksongs/update"><i class="fa fa-cog"></i> Settings</a>
+                        </li>
+
+                        
+                        <li class="divider" />
+
+                        <li class="nav-link">
+                            <a href="/project/new"><i class="fa fa-plus"></i> New Project</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="/account/jacksongs/projects"><i class="fa fa-folder-open"></i> Open Project</a>
+                        </li>
+
+                            
+                            <li class="nav-link">
+                                <a href="/admin/"><i class="fa fa-cog"></i> Admin</a>
+                            </li>
+                            
+                        
+                        <li class="divider"></li>
+
+                        <!-- See https://github.com/alexandermendes/pybossa-discourse -->
+                        <li class="nav-link">
+                            
+                            <a href="/discourse/signout"><i class="fa fa-power-off"></i> Sign Out</a>
+                            
+                        </li>
+
+                    </ul>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+            <div class="container-fluid">
+                <div id="alert-messages">
+    
+        
+    
+</div>
+
+                
+<script src="static/js/lunr.js"></script>
+<script src="static/js/d3.v3.min.js" charset="utf-8"></script>
+
+<div class="container container-main">
+    <div class="row">
+        <div class="col-sm-12">
+
+	<div id="cover"><br><br><br><br><br><h3>Loading...</h3><img src="static/img/loading.gif"</></div>
+	<!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+
+	<!-- the search bar!  -->
+	<div id="start" class='col-md-10 col-md-offset-1'>
+		<div>Search:
+		<input type="text" id="myInput" placeholder="Type company, suburb etc, then press enter"></div>
+		<br>
+		<div><button id="showhints" class='btn btn-sm btn-default'>Show more information</button></div>
+		<br>
+		<div id="hints" style="display:none">
+			<p>The search is not case-sensitive and supports the following:</p>
+			<strong>Single term</strong>
+			<ul>
+				<li>Wildcards - use * eg: comm*</li>
+				<li>Fuzzy matching - use ~3 to match a word that would require three characters to be changed eg: beretta~1 </li>
+			</ul>
+			<strong>Multiple terms</strong>
+			<ul>
+				<li>Exact match - just type exactly as it appears, no quotation marks needed, eg: Mawson Lakes</li>
+				<li>AND operator - search for multiple terms in a single entry by separating words with plus signs eg: Qantas+club</li>
+				<li>OR operator - search for multiple terms by separating words with commas eg: golf,tennis,cycling</li>
+			</ul>
+			<strong>Prefer a CSV?</strong>
+			<p>You can grab that <a href="https://s3-ap-southeast-2.amazonaws.com/burnsearch/BURN.csv">here</a>.
+		</div>
+	</div>
+
+	<!-- this is for the gallery of headshots-->
+	
+	<div id="gallery" class='col-md-10 col-md-offset-1'>
+
+	</div>
+
+	<!-- this is for the gallery of pages-->
+
+	<div id="contribute" class='col-md-10 col-md-offset-1'>
+	</div>
+	
+	<div id="pages" class='col-md-10 col-md-offset-1'>
+	</div>
+
+	<!-- this is for all the entry information -->
+
+	<div id="layout" class='col-md-10 col-md-offset-1'>
+
+	</div>
+
+
+	<!-- this bit creates the thumbnail area and the mock pages -->
+	
+	<script>
+
+document.addEventListener("DOMContentLoaded", function(e) {
+
+	d3.json("https://s3-ap-southeast-2.amazonaws.com/burnsearch/projects.json", function(error, thumbs) {
+		if (error) throw error;
+		d3.select('#gallery').selectAll('div').data(thumbs).enter()
+		.append("span").attr("class","img-overlay-wrap").attr("id",function(d) { return d.code })
+		.attr("data-below2",function(d) { return d.below2 })
+		.attr("data-project_id",function(d) { return d.id })
+		.attr("data-pages",function(d,i) { return d.pages })
+		.style("width","30px").style("text-align","center").style("font-size","20px").append('img')
+		.attr("src",function(d){return "static/img/thumbs/"+d.code+".jpg"})
+		.style("width","27px").style("height","40px")
+		.style("vertical-align","middle").style("filter","grayscale(100%)")
+		.style("overflow","hidden");
+	  	var span = d3.selectAll('#gallery span');
+
+		// Define the div for the tooltip
+		var div = d3.select("#gallery").append("span")	
+			.attr("class", "tooltip")		
+			.style("opacity", 0);
+
+		span.on("mouseover", function(d) {		
+			div.transition()		
+			.duration(200)		
+			.style("opacity", .9);		
+			div.html(d.name).style("left", (d3.event.pageX) + "px")		
+			.style("top", (d3.event.pageY - 200) + "px");	
+			})
+
+		d3.select('#gallery').on("mouseout", function(d){
+			div.transition().duration(200).style('opacity',0)
+		})
+
+	  	// these are the divs for all the headshots
+	  	span.append('div')
+			.attr('class','below2')
+			.style("position","absolute")
+			.style("top","50%")
+			.style("left","50%")
+			.style("transform","translate(-50%, -50%)")
+			.style('color','white')
+			.style('display','none')
+			.text(function(d){if (d.below2 > 0) { return d.below2 } else { return '' }})
+	  
+		// and the svgs in the headshots
+		span.append('svg')
+			.attr('width', 40)
+			.attr('height', 50)
+			.attr('viewBox', "-1.1 -0.8 3 3")
+			.attr("class","img-overlay-wrap");
+
+		// these create a div for each mp in the contribute div
+		var cont = d3.select("#contribute").selectAll('div').data(thumbs).enter()
+		.append("div").attr("class",function(d) { return d.id }).style("display","none");
+
+		// and we add a heading with the name of the mp
+		cont.append("h3").text(function (d) { return d.name });
+
+		// and a link to the contribute page
+		cont.append("p").append("a")
+		.attr("href",function (d) { return "https://burntheregister.com/project/" + d.code +"/newtask" }).text("Contribute transcription for this MP");
+
+	});
+
+	// this part defines the functions for the circle paths
+	
+	function circlePath(δr_min,δr_max, θ0_min, θ0_max, δθ_min,δθ_max) {
+		var c = 0.551915024494,
+			β = Math.atan(c),
+			d = Math.sqrt(c*c+1*1),
+			r = 1,
+			θ = (θ0_min + Math.random()*(θ0_max - θ0_min))*Math.PI/180,
+			path = 'M';
+		
+		path += [r * Math.sin(θ), r * Math.cos(θ)];
+		path += ' C' + [d * r * Math.sin(θ + β), d * r * Math.cos(θ + β)];
+		
+		for (var i=0; i<4; i++) {
+			θ += Math.PI/2 * (1 + δθ_min + Math.random()*(δθ_max - δθ_min));
+			r *= (1 + δr_min + Math.random()*(δr_max - δr_min));
+			path += ' ' + (i?'S':'') + [d * r * Math.sin(θ - β), d * r * Math.cos(θ - β)];
+			path += ' ' + [r * Math.sin(θ), r * Math.cos(θ)];
+		}
+		
+		return path;
+	}
+
+	function circleXform(λ_min, λ_max, θ_min, θ_max) {
+		var θ = (θ_min + Math.random()*(θ_max - θ_min));
+		return 'rotate(' + θ + ') '
+			+ 'scale(1, ' + (λ_min + Math.random()*(λ_max - λ_min)) + ')'
+			+ 'rotate(' + (-θ) + ')';
+	}
+
+	var results = 'none';
+
+	d3.json("https://s3-ap-southeast-2.amazonaws.com/burnsearch/entriesprocessed.json", function(error, list) {
+	  	if (error) throw error;
+
+		var idx = lunr(function () {
+			this.pipeline.remove(lunr.stemmer)
+			this.pipeline.remove(lunr.stopWordFilter)
+			this.searchPipeline.reset()
+
+			this.ref('i')
+			this.field('text')
+
+			list.forEach(function (doc) {
+			this.add(doc)
+			}, this)
+		});
+
+
+		function myFunction() {
+
+			// remove all previous yellow rectangles
+			d3.select("#pages").selectAll('img').style('border','0px')
+
+			// Remove all previous entries
+			$('#entries div div ul').html('');
+
+			// Make all rectangles see through
+			d3.selectAll('rect').transition().style('fill','none')
+
+			// Hide all pages from previous searches
+			$("#ulpages li").hide();
+
+			// Make all faces the same opacity
+			$("span").fadeTo(0,1);
+
+			// Remove old paths
+			d3.selectAll('path').remove();
+			
+			var vals = $("#myInput").val();
+
+			gtag('event', 'search', {
+			  // Event parameters
+			  'search_term':vals
+			  // ...
+			});
+
+			if ( vals.indexOf(",") != -1 ) {
+				
+				var codes = []
+
+				var full = []
+
+				for (o = 0; o < vals.split(",").length ; o++) { // for the OR search
+
+					var results = idx.search(vals.split(",")[o]);
+					// codes is just the MP keys returned by the search
+
+
+					// This variable holds the mp codes as its keys, and an array of pages for each one
+
+					for (i = 0; i < results.length; i++) { 
+						full.push(list[Number(results[i].ref)])
+					};
+					
+					for (i = 0; i < full.length; i++) { 
+						if (codes.indexOf(full[i].code)==-1) { codes.push(full[i].code)}
+					};
+					
+				};
+
+			} else if ( vals.indexOf("+") != -1 ) { // for the AND search
+				
+				var codes = []
+
+				var full = []
+
+				for (o = 0; o < vals.split("+").length ; o++) {
+
+					if ( o == 0 ) { 
+						var allres = idx.search(vals.split("+")[o]); 
+						var allhave = [];
+						allres.forEach(function(item) {
+							allhave.push(item.ref);
+						});
+						
+					} else {
+						
+						var valy = vals.split("+")[o];
+						
+						var results = idx.search(valy);
+
+						allhave.slice().reverse().forEach(function(item, index, object) {
+							var match = false;
+							for (w = 0; w < results.length; w++ ) {
+							  if (item === results[w].ref) {
+								match = true;
+							  }
+							}
+							if (match == false) {
+								allhave.splice(object.length - 1 - index, 1)
+							}
+						});
+						
+					}
+
+				};
+
+				for (i = 0; i < allhave.length; i++) { 
+					full.push(list[Number(allhave[i])])
+				};
+				
+				for (i = 0; i < full.length; i++) { 
+					if (codes.indexOf(full[i].code)==-1) { codes.push(full[i].code)}
+				};
+
+			} else if ( vals.indexOf(" ") != -1 ) { // for the exact match search
+				
+				var results = []
+
+				list.forEach(function(item) {
+					if ( item.text.toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ").indexOf(vals.toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/\s{2,}/g," ")) != -1 ) {
+						results.push(item)
+					}
+				});
+
+				// codes is just the MP keys returned by the search
+				var codes = []
+
+				// This variable holds the mp codes as an array
+				var full = []
+				
+				for (i = 0; i < results.length; i++) { 
+					full.push(list[Number(results[i].i)])
+				};
+				
+				for (i = 0; i < full.length; i++) { 
+					if (codes.indexOf(full[i].code)==-1) { codes.push(full[i].code)}
+				};
+
+			} else { // for the ordinary single term search
+				var results = idx.search($("#myInput").val());
+
+				// codes is just the MP keys returned by the search
+				var codes = []
+
+				// This variable holds the mp codes as an array
+				var full = []
+				for (i = 0; i < results.length; i++) { 
+					full.push(list[Number(results[i].ref)])
+				};
+				
+				for (i = 0; i < full.length; i++) { 
+					if (codes.indexOf(full[i].code)==-1) { codes.push(full[i].code)}
+				};
+			};
+
+			// here, we add a circle to each MP returned
+			for (var i=0; i<codes.length; i++) {
+				var span = d3.select("#"+codes[i]);
+				var svg = span.select('svg');
+				svg.append('path')
+					.classed('pencil', true)
+					.style("fill","none")
+					.style("stroke","yellow")
+					.style("stroke-width","0.2px")
+					.attr('d', function() { return circlePath(
+						-0.1, 0,
+						140, 240, 
+						-0.2, 0.3)})
+					.attr('transform', function() { return circleXform(
+						0.9, 1, 
+						30, 50)});
+			};
+
+			// Now let's do yellow rectangles!
+
+			// First, clear all the stored values in the headshots
+			d3.select("#gallery").selectAll('span').attr('data-yellows',null);
+
+			pages = {};
+			for (var i=0; i<full.length; i++) {
+				if (full[i].code in pages) {
+					if ($.inArray(full[i].page, pages[full[i].code]) === -1 ) {
+					  pages[full[i].code].push(full[i].page);
+					}
+				} else {
+					pages[full[i].code] = [full[i].page]
+				}
+			};
+
+			for (var key in pages) {
+			    // check if the property/key is defined in the object itself, not in parent
+			    if (pages.hasOwnProperty(key)) {  
+			    	d3.select("#gallery").select('#'+key).attr('data-yellows',pages[key].toString());
+			    }
+			};
+
+			// and we animated these paths
+			var pa = d3.selectAll('path');
+
+			pa.style('stroke-dasharray', function(d) {
+			  var l = d3.select(this).node().getTotalLength();
+			  return l + 'px, ' + l + 'px';
+			})
+			.style('stroke-dashoffset', function(d) {
+			  return d3.select(this).node().getTotalLength() + 'px';
+			})
+			.transition()
+			.delay(function(d,i){ return 20*(i*Math.random()); }) 
+			.duration(1400)
+			.style('stroke-dashoffset', '0px');
+
+			d3.json("https://s3-ap-southeast-2.amazonaws.com/burnsearch/forimg.json", function(error, forimg) {
+
+				$("span").on('click', function clickface() {
+
+					// make all pages the same opacity
+					$("#pages img").fadeTo(0,1);
+
+					//add filter to all faces
+					$(this).siblings().children("img").attr('style','filter:grayscale(100%);vertical-align:middle;width:27px;height:40px;overflow: hidden;');
+					
+					$(this).children("img").attr('style','filter:none;vertical-align:middle;width:27px;height:40px;overflow: hidden;');
+
+					// Hide all pages from previous searches
+					$("#pages div div").hide();
+
+					// All the big pages/entries
+					$("#layout div").hide();
+
+					// Get class of span
+
+					var mp = String($(this).attr('data-project_id'));
+
+					// Make sure the clicked face is at full opacity
+
+					$(this).fadeTo(0,1);
+
+					// This part partly hides the other faces
+					
+					$(this).siblings().fadeTo(0,0.45);
+
+					// show contribute div
+					$("#contribute div").hide();
+					$("#contribute ."+mp).fadeTo(0,1);
+
+					var pagecount = $(this).attr('data-pages');
+
+					// these create a div for each img in the pages div
+					var imgs = d3.select('#pages').html(null).selectAll('img').data(Array(parseFloat(pagecount))).enter().append("img").attr("width",35).attr("height",40)
+					.attr("src","static/img/Loading_icon.gif")
+					.style('border','3px solid white')
+					.style('overflow','hidden');
+
+					// get yellow rectangles if they exist
+					var yellows = $(this).attr('data-yellows');
+
+					if (typeof(yellows) != 'undefined') {
+						var yellar = JSON.parse("["+yellows+"]");
+						for (i = 0; i < yellar.length; i++ ){
+							$( "#pages > img:nth-child("+yellar[i].toString()+")" ).css({"border-color": "yellow", "border-width":"3px", "border-style":"solid"});
+						}
+					};
+
+					//project id
+					var pid = $(this).attr('data-project_id');
+
+					
+					var imgs = $("#pages img");
+
+					for (u = 0;u<Object.keys(forimg[pid]).length;u++) {
+						$(imgs[u]).attr("src","https://farm5.staticflickr.com/"+forimg[pid][u+1])
+					};							
+
+					var lupcol = {
+						'Addition':'success',
+						'Deletion':'danger',
+						'Self':'primary',
+						'Spouse':'primary',
+						'Other':'primary',
+						'N/A':'default'
+					};
+
+					// structure of pages
+
+					d3.json("https://s3-ap-southeast-2.amazonaws.com/burnsearch/entrylayout.json", function(error, layout) {
+						
+						if (error) throw error;
+
+						// show entries when a page is clicked
+						$("#pages img").on("click", function() {
+
+							var index = $(this).index();
+
+							$(this).siblings().fadeTo(0,0.4);
+							
+							$(this).fadeTo(0,1);
+
+							// get url of image
+							var imgsrc = $(this).attr("src").replace("_m","_b");
+							var lookup1 = "#layout";
+							$(lookup1).html("<div class='col-md-6'><img width=100% src='"+imgsrc+"'></div><div class='data col-md-6'></div>");
+
+							if (mp in layout) {
+
+								var tasks = layout[mp][index+1];
+
+								if (typeof(tasks) != 'undefined') {
+									for (i=0;i<tasks.length;i++) {
+										var html = $("<div taskrun_id="+tasks[i]+" ></div>");
+										var htmldiv = $("<div class='conts' style='background-color:#f9f9f9;padding:10px;margin:10px'><h4>Contribution #"+(i+1)+"</h4>")
+										var ul = $("<ul>")
+										var counter = 0
+										for (o=0;o<list.length;o++){
+											if ((list[o].taskrun_id).toString() == tasks[i]) {
+												var entry = $("<li>").html(list[o].text+' <span class="pull-right"><span class="label label-'+lupcol[list[o].ad]+'">'+list[o].ad+'</span>'+' <span class="label label-'+lupcol[list[o].who]+'">'+list[o].who+'</span>'+' <span class="label label-default">'+list[o].item+'</span></span>')
+												ul.append(entry)
+												counter += 1
+											}
+										};
+										if (counter === 0) {
+											ul.append("<li><i>No entries recorded for this contribution for this page.</i></li>")
+										};
+										htmldiv.append(ul)
+										htmldiv.append("<button value='"+tasks[i]+"' class='flag btn btn-xs btn-default'>Spot a mistake?<br>Flag this contribution</button>")
+										$("#layout div.data").append(html);
+										html.append(htmldiv)
+									}
+								};
+
+							};
+
+							//flag button
+							$(".flag").on('click',function(){
+
+								var data = {'taskrun_id':$(this).val(),'user_id':'','name':''};
+								data.formDataNameOrder = '["taskrun_id","user_id","name"]';
+								data.formGoogleSheetName = "responses"; // default sheet name
+								data.formGoogleSendEmail = ""; // no email by default
+
+
+								var xhr = new XMLHttpRequest();
+								var url = 'https://script.google.com/macros/s/AKfycbwjYgh-2gtOZuU9x6vh7uiR40_lBNal9WxGCss9lpAf3Snc8jk/exec';
+								xhr.open('POST', url);
+								xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+								function flaggee(a) {
+
+									a.prop('disabled', true).text('Flagged!');
+								};
+								
+								xhr.onreadystatechange = flaggee($(this))
+								xhr.send(Object.keys(data).map(function(k) {
+									return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
+									}).join('&'));
+							})
+
+						});
+			
+					});	
+
+
+				});
+
+			});
+
+		};
+
+		$( "#showhints" ).click(function() {
+		  $( "#hints" ).slideToggle( "fast", function() {
+			// Animation complete.
+		  });
+		});
+
+
+		$("#myInput").on('keyup', function (e) {
+			if (e.keyCode == 13) {
+				myFunction();
+
+			}
+		});
+
+		//toggle pages to go
+		$("#togo").on("click",function(d) {
+			$('.below2').fadeToggle("slow");
+		});
+
+		myFunction(); // kick off myFunction early so we can click on faces
+
+
+	});
+
+})
+
+
+$(window).on('load', function() {
+	setTimeout(function(){
+    	d3.select("#cover").transition().duration(1000).style("opacity", 0).remove();
+	}, 2000);
+});
+
+	</script>
+
+		
+	<style> 
+
+	#myInput {
+		width:350px;
+	}
+
+	.img-overlay-wrap {
+	position: relative;
+	display: inline-block; /* <= shrinks container to image size */
+	transition: transform 150ms ease-in-out;
+	}
+
+	.img-overlay-wrap img { /* <= optional, for responsiveness */
+	 display: block;
+	 max-width: 100%;
+	 height: auto;
+	}
+
+	.img-overlay-wrap svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	}
+
+	#pages {
+		padding-bottom: 10px;
+	}
+
+	.ulholder {
+	padding-top:10px;
+	margin-bottom:10px;
+	padding-bottom:15px;
+	padding-left:15px;
+	background-color:#f2f2f2;
+	}
+
+	#layout li {
+		margin-left:15px;
+		margin-bottom: 30px;
+	}
+
+	#cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #ffffff; z-index:9999; text-align: center}
+
+	.tooltip {
+		background: white;
+		padding:3px;
+	}
+	</style>
+        </div>
+    </div>
+</div>
+
+            </div>
+
+            
+            <div id="cookies-warning" class="container">
+                <div class="col-md-12 text-center">
+                    <span>Cookies alert! Please agree to share your stats. <span id="btn-group-cookies" role="group"></span><button class="btn btn-xs btn-success" onclick="accept_cookies()"><i class="fa fa-thumbs-up"></i> OK</button></span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <footer id="main-footer">
+        <div class="container">
+    <div class="row center vcenter hcenter">
+
+        <div class="col-sm-3 col-xs-12 footer-col hidden-xs">
+        </div>
+
+        <div class="col-sm-6 footer-col">
+        
+            <div class="row ie-vcenter">
+                <ul>
+                    <li>
+                        <a href="http://twitter.com/@jacksongs" target="_blank"><i class="fa fa-twitter padding-sides-xs"></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto:jackson@mail.burntheregister.com"><i class="fa fa-envelope padding-sides-xs"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/jacksongs/pybossa"><i class="fa fa-github padding-sides-xs"></i></a>
+                    </li>
+                </ul>
+            </div>
+        
+        </div>
+
+        <div class="col-sm-3 footer-col hidden-xs">
+            <a href="http://pybossa.com/"  target="_blank">
+                <img class="img-responsive center-block ie-mid-vcenter" src="/web/static/img/pybossa.png"  alt="PyBossa logo">
+            </a>
+        </div>
+
+    </div>
+</div>
+    </footer>
+
+    <!-- Le javascript -->
+    
+    <script type="text/javascript" src="/web/static/vendor/specialedit/specialedit.js"></script>
+    <script type="text/javascript" src="/web/static/js/scripts.js"></script>
+    <script type="text/javascript" src="/web/static/js/errors.js"></script>
+    <script>
+        function accept_cookies(){
+    var cookie_name = "BURN THE REGISTER_accept_cookies";
+    var exdays = 120;
+    var exdate = new Date();
+    exdate.setDate(exdate.getDate() + exdays);
+    var cookie_value = escape("Yes") + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+    document.cookie = cookie_name + "=" + cookie_value + ";path=/";
+    $("#cookies-warning").hide();
+};
+    </script>
+
+    </body>
+</html>
