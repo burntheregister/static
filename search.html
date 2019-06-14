@@ -241,10 +241,6 @@ document.addEventListener("DOMContentLoaded", function(e) {
 		// and we add a heading with the name of the mp
 		cont.append("h3").text(function (d) { return d.name });
 
-		// and a link to the contribute page
-		cont.append("p").append("a")
-		.attr("href",function (d) { return "https://burntheregister.com/project/" + d.code +"/newtask" }).text("Contribute transcription for this MP");
-
 	});
 
 	// this part defines the functions for the circle paths
