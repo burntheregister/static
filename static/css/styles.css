@@ -501,8 +501,8 @@ hr.extra-margins {
 }
 
 .container-main {
-    padding-top: 100px;
-    padding-bottom: 100px
+    padding-top: 40px;
+    padding-bottom: 0px
 }
 
 .white-panel {
