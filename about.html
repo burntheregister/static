@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>BURN THE REGISTER</title>
+        <title>BURN THE REGISTER | About</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Fixing the Parliamentary Interests Register for good">
+        <meta name="description" content="Find out more about the LibCrowds crowdsourcing platform.">
         <meta name="author" content="British Library">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
@@ -99,13 +99,13 @@
 
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="nav-link active">
+                <li class="nav-link">
                     <a href="/">Home</a>
                 </li>
                 <li class="nav-link">
                     <a href="/search">Search</a>
                 </li>
-                <li class="nav-link">
+                <li class="nav-link active">
                     <a href="/about">About</a>
                 </li>
             </ul>
@@ -121,134 +121,114 @@
 </div>
 
                 
-<div class="splash" id="home-splash">
-    <div class="splash-overlay vcenter hcenter">
-        <div class="container ie-vcenter">
-            <h1>Fixing the Interests<br>Register for good</h1>
-            <div class="col-xs-12">
-                <div data-anchor="#featured-projects" class="btn btn-circle anchor-btn">
-                    <a>
-                        <div><i class="fa fa-angle-double-down fa-3x padding-top-sm"></i></div>
-                        <div><br>Dive<br>on in</div>
-                    </a>
-                </div>
-            </div>
+    <div class="splash" id="about-splash">
+    <div class="splash-overlay vcenter hcenter"></div>
+</div>
+
+<section class="mid-grey pattern-brushed box-shadow-grey-bottom">
+    <div class="container container-padded">
+        <div class="col-md-11">
+            <h1 class="inset-text-grey">About</h1>
+            <p class="lead">
+            	BURN THE REGISTER is a project established by Jackson Gothe-Snape, supported by a team of journalists including Sarah Martin (pictured) and Nick Evershed, that aims to fix the Interests Register of Australian Federal Parliamentarians. By crowd-sourcing the transcription of thousands of pages of handwritten PDFs, BURN THE REGISTER will make the Interests Register searchable.
+            </p>
         </div>
     </div>
-</div>
+</section>
+
+<section class="white">
+    <div class="container container-padded">
+        <div class="col-md-11 padding-bottom-sm">
+            <h2>Why is this important?</h2>
+            <p>
+                Right now, this is how you can check to see whether a company has had any dealings with an MP or Senator:
+                <ul>
+                <li>Check the Senate and House of Representatives websites for recent declarations.</li>
+                <li>Read every PDF listed - including those with illegible handwriting.</li>
+                <li>Personally visit the Table Office in Parliament House in Canberra to get archived entries in hard copy form.</li>
+                <li>Weep into the mountain of paper now strewn across your desk.</li>
+                </ul>
+            </p>
+            <p>
+                The deeper you dig into the declarations, the bigger the holes. Categories are missing, disclosures are illegible and guidance is scant. For example, should the fact that declared bottles of wine were actually Grange Hermitage be disclosed?
+                And should they be disclosed in real-time, when potential conflicts arise?
+                To address the shortcomings prompted by these questions, BURN THE REGISTER aims to support reforms towards a new regime of declarations which is:
+                <ul>
+                <li>freshly clarified,</li>
+                <li>real-time,</li>
+                <li>categorised,</li>
+                <li>standardised, and</li>
+                <li>digital,</li>
+                <li>with a goal for public access and analysis.</li>
+                </ul>
+            </p>
+            <p>In 2011, a report of the Senate Standing Committee of Senators' Interests chaired by Senator Cory Bernardi determined the committee "will continue to investigate" options such as online forms "and will report to the Senate on this matter in due course". That was the most recent report on the matter. For more information on the current regime, see <a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Senators_Interests/Guidelines_and_Resolutions/Explanatory_Notes">these explanatory notes for statements of registrable interests for Senators</a> and <a href="http://www.aph.gov.au/~/media/05%20About%20Parliament/53%20HoR/532%20PPP/Resolutions/9Oct1984.pdf">this resolution, last amended in 2008, about the Register of Interests for MPs</a>.
+            </p> 
+            <p>In May 2017, a <a href="http://parlinfo.aph.gov.au/parlInfo/download/committees/estimate/29ee2a15-f7a1-4a29-b10b-6f2881c2bcb2/toc_pdf/Finance%20and%20Public%20Administration%20Legislation%20Committee_2017_05_22_5099_Official.pdf;fileType=application%2Fpdf">Senates Estimates hearing</a> revealed that work is underway on a new digital Interests Register. It is unlikely to be ready by the end of 2017, and no commitment has been made for it to be searchable.
+            </p>
+        </div>
+    </div>
+</section>
 
 <section class="white pattern-white-wall box-shadow-white-bottom">
     <div class="container container-padded">
-        <div class="col-sm-offset-2 col-sm-8 text-center">
-            <h2 class="inset-text-grey text-center">Success!</h2>
-            <p >
-                BURN THE REGISTER is a community journalism initiative that made the conflicts of interests of Australian politicians' searchable.
-
+        <div class="col-md-11 padding-bottom-sm">
+            <h2>Technology</h2>
             <p>
+                BURN THE REGISTER is built on top of <a href="http://docs.pybossa.com/"> PyBossa</a>, an open-source Python framework for the creation of
+                crowdsourcing projects. PyBossa is written in Python and uses the <a href="http://flask.pocoo.org/">Flask</a> micro-framework. Each
+                project on the platform is written in a combination of HTML, CSS and Javascript.  The
+                community forum is powered by <a href="https://www.discourse.org/">Discourse</a>. BURN THE REGISTER also uses a modified version of the
+				<a href="https://github.com/LibCrowds/libcrowds-pybossa-theme" target="_blank">LibCrowds theme</a>. Any plugins developed to
+				provide additional functionality are open-souce and available on GitHub.
             </p>
-                It allowed new stories to be told and brought about major reform.
-
+            <p>
+                
+                    BURN THE REGISTER is currently running the following plugins:
+                    <ul class="no-style">
+                    
+						
+                        <li>
+								<a href="https://github.com/alexandermendes/pybossa-discourse"><strong>pybossa-discourse</a> (v0.2.5)</strong>
+							
+							<strong>:</strong> A PyBossa plugin for Discourse integration.
+						</li>
+						
+                    
+						
+                        <li>
+								<a href="https://github.com/LibCrowds/libcrowds-data"><strong>libcrowds-data</a> (v1.0.0)</strong>
+							
+							<strong>:</strong> Global data repository page for LibCrowds.
+						</li>
+						
+                    
+                    </ul>
+                
             </p>
-            <div class="container-fluid">
-            <img src="static/img/home1.jpg" class="col-xs-4" alt="Contributors to BURN THE REGISTER working away">
-            <img src="static/img/home3.png" class="col-xs-4" alt="Contributors to BURN THE REGISTER working away">
-            <img src="static/img/home2.jpg" class="col-xs-4" alt="Contributors to BURN THE REGISTER working away">
+            <div class="col-sm-6 col-sm-offset-3 col-xs-12 padding-top-sm">
+                <div class="col-xs-4"><img src="static/img/html-logo.png" class="img-responsive web-badge" alt="HTML5 web badge"></div>
+                <div class="col-xs-4"><img src="static/img/css-logo.png" class="img-responsive web-badge" alt="CSS3 web badge"></div>
+                <div class="col-xs-4"><img src="static/img/js-logo.png" class="img-responsive web-badge" alt="JavaScript web badge"></div>
             </div>
-
-            <br>
-            <p>
-                Between 2017 and 2019, the project's volunteers turned thousands of handwritten declarations of politicians' gifts, properties and shares into searchable and downloadable data.
-
-            </p>
-            <p>    
-                Hundreds of contributors were involved, and <a href="https://www.buzzfeed.com/joshtaylor/here-are-the-politicians-who-stand-to-gain-from-the-company">stories were told</a> that couldn't be told before.
-            </p>
-            <p>
-                Visit the <a href="/about">About</a> page for more on the history of the project.
-            </p>
-
         </div>
     </div>
 </section>
 
-<section class="grey pattern-brushed box-shadow-grey-bottom">
+<section class="white">
     <div class="container container-padded">
-        <div class="col-sm-offset-2 col-sm-8 text-center">
-
-            <p>
-                Search thousands of disclosures of politicians made between 2016 and 2019 (the 45th Parliament) on the <a href="/search">Search page</a>. All the data can be downloaded in a CSV file <a href="/static/BURN.csv">here</a>.
-            </p>
-            <p>
-
-                The project also <a href="https://medium.com/the-walkley-magazine/13-179-things-weve-learned-about-politicians-and-community-journalism-so-far-fe956fd34c80">grew awareness around the problems with the system</a> and <a href="https://www.theguardian.com/australia-news/2018/sep/17/making-australian-politics-transparent-and-how-you-can-help">drove momentum</a> around calls for reform.
-
-            </p>
-            <div class="container-fluid">
-            <img src="static/img/home4.jpg" class="col-xs-4" alt="Contributors to BURN THE REGISTER working away">
-            <img src="static/img/home6.jpg" class="col-xs-4" alt="Contributors to BURN THE REGISTER working away">
-            <img src="static/img/home5.jpg" class="col-xs-4" alt="Contributors to BURN THE REGISTER working away">
-            </div>
-            <br>
- 
-            <p>  
-                As the calls grew louder, the Australian Senate <a href="https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Senators_Interests/reports/Report_No_1_of_2019">implemented</a> a digital disclosure system in 2019. 
-            </p>
-            <p>  
-                The project is on hold until it's clear the BURN THE REGISTER community is needed again.
-            </p>
+        <div class="col-md-11 padding-top-xs padding-bottom-sm">
+            <h2>Contact information</h2>
+            <ul class="no-style">
+                <li><a href="mailto:jackson@mail.burntheregister.com">Email us</a> for more information.</li>
+            </ul>
         </div>
     </div>
 </section>
 
-
-    <div class="container container-padded">
-        
-        
-<div class="col-xs-12 text-center">
-    <a data-content="Share on Facebook" class="btn btn-facebook btn-popover"
-       onclick="popUp=window.open('http://www.facebook.com/sharer.php?u=http%3A%2F%2FBURNTHEREGISTER.com',
-                               'popupwindow', 'scrollbars=yes,width=510,height=620');popUp.focus();return false"
-                               data-url="BURNTHEREGISTER.com">
-        <i class="fa fa-facebook"></i>
-    </a>
-
-    <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2FBURNTHEREGISTER.com&text=Dang, it&#39;s time to fix the Interests Register for good
-    &tw_p=tweetbutton&url=http%3A%2F%2FBURNTHEREGISTER.com"
-       data-content="Share on Twitter" class="btn btn-twitter btn-popover"
-       data-url="BURNTHEREGISTER.com">
-        <i class="fa fa-twitter"></i>
-    </a>
-    <a href="#" data-content="Share on Google+" class="btn btn-googleplus btn-popover"
-    onclick="popUp=window.open('https://plus.google.com/share?url=http%3A%2F%2FBURNTHEREGISTER.com',
-                               'popupwindow', 'scrollbars=yes,width=510,height=725');popUp.focus();return false"
-                               data-url="BURNTHEREGISTER.com">
-        <i class="fa fa-google"></i>
-    </a>
-    <a href="#" data-content="Share on LinkedIn" class="btn btn-linkedin btn-popover"
-    onclick="popUp=window.open('https://www.linkedin.com/cws/share?url=http%3A%2F%2FBURNTHEREGISTER.com',
-                               'popupwindow', 'scrollbars=yes,width=510,height=520');popUp.focus();return false"
-                               data-url="BURNTHEREGISTER.com">
-        <i class="fa fa-linkedin"></i>
-    </a>
-</div>
-
-    </div>
-
-<script>
-function imgError(image) {
-    image.onerror = "";
-    image.src = "static/img/placeholder.project.png";
-    if (arguments[1] === 'user') {
-        image.src = "static/img/placeholder.user.png";
-    }
-    return true;
-}
-</script>
-
-
             </div>
 
-                        
+            
         </div>
     </div>
     <footer id="main-footer">
@@ -277,6 +257,9 @@ function imgError(image) {
         </div>
 
         <div class="col-sm-3 footer-col hidden-xs">
+            <a href="http://pybossa.com/"  target="_blank">
+                <img class="img-responsive center-block ie-mid-vcenter" src="static/img/pybossa.png"  alt="PyBossa logo">
+            </a>
         </div>
 
     </div>
